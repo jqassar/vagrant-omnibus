@@ -19,7 +19,7 @@ def run_acceptance_tests(provider = 'virtualbox')
 end
 
 YARD::Rake::YardocTask.new
- 
+
 namespace :style do
   require 'rubocop/rake_task'
   desc 'Run Ruby style checks'
